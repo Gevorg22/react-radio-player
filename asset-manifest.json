@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-radio-player/static/css/main.12800400.chunk.css",
-    "main.js": "/react-radio-player/static/js/main.47ea0951.chunk.js",
-    "main.js.map": "/react-radio-player/static/js/main.47ea0951.chunk.js.map",
+    "main.js": "/react-radio-player/static/js/main.b25445bc.chunk.js",
+    "main.js.map": "/react-radio-player/static/js/main.b25445bc.chunk.js.map",
     "runtime-main.js": "/react-radio-player/static/js/runtime-main.fa624b32.js",
     "runtime-main.js.map": "/react-radio-player/static/js/runtime-main.fa624b32.js.map",
     "static/js/2.829db02f.chunk.js": "/react-radio-player/static/js/2.829db02f.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.fa624b32.js",
     "static/js/2.829db02f.chunk.js",
     "static/css/main.12800400.chunk.css",
-    "static/js/main.47ea0951.chunk.js"
+    "static/js/main.b25445bc.chunk.js"
   ]
 }
