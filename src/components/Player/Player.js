@@ -11,7 +11,7 @@ const Player = ({ currentStationIndex, setCurrentStationIndex, stations }) => {
     React.useEffect(() => {
         if (isPlaying) {
             audioElement.current.play();
-            audioElement.current.volume = 0.4;
+            audioElement.current.volume = 0.6;
         } else {
             audioElement.current.pause();
         }

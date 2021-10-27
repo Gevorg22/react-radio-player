@@ -19,7 +19,7 @@ const RadioMenu = ({ stations, setCurrentStationIndex, radioMenuOpen, closeRadio
                     <ul>
                         {stations.map((item, index) => {
                             return (
-                                <li key={item.number} onClick={() => onClickItem(index)}>
+                                <li key={item.id} onClick={() => onClickItem(index)}>
                                     {item.title}
                                 </li>
                             );
