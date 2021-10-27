@@ -1,0 +1,32 @@
+.playerDetails {
+    .playerDetailsImg {
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+
+        img {
+            display: block;
+            margin: 30px auto;
+            object-fit: contain;
+            width: 100%;
+            max-width: 250px;
+            border-radius: 50%;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 10px 10px rgba(0, 0, 0, 0.52);
+        }
+    }
+
+    .playerDetailsTitle {
+        color: rgb(206, 205, 205);
+        text-shadow: 1px 1px 2px rgb(58, 58, 58);
+        font-size: 21px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .playerDetailsNumber {
+        color: #aaa;
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,28 @@
+.playerControls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    .playBtn {
+        display: flex;
+        margin: 0 30px;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
+        background-color: #222222;
+        color: #4d4d4d;
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+    .prevBtn, .nextBtn {
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: #202020;
+        font-size: 17px;
+        padding: 20px;
+    }
+}
