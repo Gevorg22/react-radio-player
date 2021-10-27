@@ -19,7 +19,7 @@ const Player = ({ currentStationIndex, setCurrentStationIndex, stations }) => {
 
     const prevRadioBtn = () => {
         setCurrentStationIndex(() => {
-            let stationIndex = currentStationIndex--;
+            let stationIndex = currentStationIndex - 1;
             if (stationIndex < 0) {
                 stationIndex = stations.length - 1;
             }
@@ -29,7 +29,7 @@ const Player = ({ currentStationIndex, setCurrentStationIndex, stations }) => {
 
     const nextRadioBtn = () => {
         setCurrentStationIndex(() => {
-            let stationIndex = currentStationIndex++;
+            let stationIndex = currentStationIndex + 1;
             if (stationIndex > stations.length - 1) {
                 stationIndex = 0;
             }
