@@ -1,12 +1,7 @@
 import React from 'react';
 import styles from './RadioMenu.module.scss';
 
-const RadioMenu = ({
-    stations,
-    setCurrentStationIndex,
-    radioMenuOpen,
-    closeRadioMenu,
-}) => {
+const RadioMenu = ({ stations, setCurrentStationIndex, radioMenuOpen, closeRadioMenu }) => {
     let onClickItem = (index) => {
         setCurrentStationIndex(index);
         closeRadioMenu();
