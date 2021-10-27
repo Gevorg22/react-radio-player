@@ -6,7 +6,7 @@ import styles from './Player.module.scss';
 const Player = ({ currentStationIndex, setCurrentStationIndex, stations }) => {
     const audioElement = React.useRef(null);
 
-    const [isPlaying, setIsPlaying] = React.useState(true);
+    const [isPlaying, setIsPlaying] = React.useState(false);
 
     React.useEffect(() => {
         if (isPlaying) {
@@ -51,7 +51,7 @@ const Player = ({ currentStationIndex, setCurrentStationIndex, stations }) => {
                 ref={audioElement}
                 className={styles.playerRadio}
                 src={stations[currentStationIndex].src}
-                controls autoPlay></audio>
+                controls autoPlay=""></audio>
         </div>
     );
 };
