@@ -6,7 +6,7 @@ import styles from './Player.module.scss';
 const Player = ({ currentStationIndex, setCurrentStationIndex, stations }) => {
     const audioElement = React.useRef(null);
 
-    const [isPlaying, setIsPlaying] = React.useState(false);
+    const [isPlaying, setIsPlaying] = React.useState(true);
 
     React.useEffect(() => {
         if (isPlaying) {
