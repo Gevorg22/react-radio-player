@@ -11,7 +11,7 @@ const Player = ({ currentStationIndex, setCurrentStationIndex, stations }) => {
     React.useEffect(() => {
         if (isPlaying) {
             audioElement.current.play();
-            audioElement.current.volume = 0.4
+            audioElement.current.volume = 0.4;
         } else {
             audioElement.current.pause();
         }
@@ -46,12 +46,14 @@ const Player = ({ currentStationIndex, setCurrentStationIndex, stations }) => {
                 isPlaying={isPlaying}
                 prevRadioBtn={prevRadioBtn}
                 nextRadioBtn={nextRadioBtn}
+                audioElement={audioElement}
             />
             <audio
                 ref={audioElement}
                 className={styles.playerRadio}
                 src={stations[currentStationIndex].src}
-                controls autoPlay=""></audio>
+                controls
+                autoPlay=""></audio>
         </div>
     );
 };
