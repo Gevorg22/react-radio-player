@@ -100,7 +100,7 @@ function App() {
         },
     ]);
 
-    const [currentStationIndex, setCurrentStationIndex] = React.useState(4);
+    const [currentStationIndex, setCurrentStationIndex] = React.useState(3);
     const [radioMenuOpen, setRadioMenuOpen] = React.useState(false);
 
     const closeRadioMenu = () => {
