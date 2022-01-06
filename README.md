@@ -1,4 +1,4 @@
-Radio player implemented on React JS
+Radio player implemented on React JS.
 
 
 
